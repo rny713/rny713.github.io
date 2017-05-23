@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Website Demo</title>
+</head>
+
+
+<body>
+    <!-- note Header -->
+    <!-- note nav -->
+    <!--導覽列開始-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- 導覽列 RWD選單圖示與品牌連結 -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">觸發縮放</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span>
+                    </button>
+            </div>
+
+            <!-- 導覽列選項 與導覽列中的表單元素 -->
+            <!-- 小螢幕時要被收起的元素 放置於 navbar-collapse -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- 導覽列中的表單元素 -->
+                <!-- 拉到右邊的導覽列清單 -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#workExperienceSection">Work experiences</a></li>
+                    <li><a href="#educationSection">Education</a></li>
+                    <li><a href="#professionSkillSection">Professional skills</a></li>
+                    <li><a href="#languageSkillSection">Language skills</a></li>
+                    <li><a href="#contactSection">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--導覽列結束-->
+
+    <!-- note jumbotron -->
+    <div class="jumbotron" id="backToTop">
+        <div class="jumbotron-content">
+            <h1>Hi, I am Randy Lu</h1>
+        </div>
+        <!--輪播開始-->
+        <div id="slideshow" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <!--輪播圖片或內容-->
+                <div class="item active">
+                    <img src="img/jumbotron-1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/jumbotron-2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/jumbotron-3.jpg" alt="">
+                </div>
+            </div>
+            <!--上一頁 下一頁 按鈕-->
+            <div class="control-btn">
+                <a href="#slideshow" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a href="#slideshow" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right" ></span></a>
+            </div>
+            <!--小圓點換頁-->
+            <ol class="carousel-indicators">
+                <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                <li data-target="#slideshow" data-slide-to="1"></li>
+                <li data-target="#slideshow" data-slide-to="2"></li>
+            </ol>
+        </div>
+        <!--輪播結尾-->
+    </div>
+
+    <!-- note work Experience section -->
+
+    <section id="workExperienceSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2 class="section-title">
+                        Work experiences
+                    </h2>
+                    <h4>Process Engineer</h4>
+                    <p>Based on material science, physical and chemical engineering, fine tune and maintain semicondutor tools including PVD, CVD and ALD process, also assure the yield performance can be maintained stably even if with mass production.</p>
+                    <h4>Research &amp; Development Engineer</h4>
+                    <p>To open up and develop new recipe for advanced semiconductor process, and cooperate with facility venders (Applied Materials, Lam Research, KLA-Tencor, Tokyo Electronics etc.) to verify the process feasibility and stability on the high-tech tools.</p>
+                    <h3>Module Engineer</h3>
+                    <p>Combined the semiconductor process and facility or tools hardware related knowledge to make sure a great quantity of wafers with comparable yields from FAB, and confine the process parameters to improve the electrical performances of the chips on the wafer. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- note Education Section -->
+    <section id="educationSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2 class="section-title">
+                        Education
+                    </h2>
+                    <h4><strong>Material Science &amp; Enginnering</strong> @ National Tsing Hua University</h4>
+                    <p>SEP 2010 - JUN 2012</p>
+                    <h4><strong>Material Science &amp; Enginnering</strong> @ National Chung Hsing University</h4>
+                    <p>SEP 2006 - JUN 2010</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- note profession skill Section -->
+    <section id="professionSkillSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2 class="section-title">
+                        Professional skills
+                    </h2>
+                    <ol>
+                        <li>Thin Film Deposition</li>
+                        <li>Semicondutor Process</li>
+                        <li>HTML / CSS / Javascript</li>
+                    </ol>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- note language skill Section -->
+    <section id="languageSkillSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2 class="section-title">
+                        Language skills
+                    </h2>
+                    <ol>
+                        <li>Chinese</li>
+                        <li>English</li>
+                        <li>Japanese</li>
+                    </ol>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <footer id="contactSection">
+
+        <h2 class="section-title" id="contact">Contact Me</h2>
+
+        <h5><a href="" class="email">tech20171@gmail.com</a></h5>
+
+        <div class="social-links"> <a href="#"><i class="fa fa-2x fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-2x fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+    <!-- 回到最上層按鈕 -->
+    <a href="#backToTop" id="scrollTopBtn">Back</a>
+
+</body>
+
+</html>
